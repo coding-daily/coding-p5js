@@ -3,6 +3,7 @@ let pallete = ["#10111C", "#23AECC", "#ECE1B4", "#CC3016", "#F2C96E", "#178FA6"]
 let graphics;
 let prevC = -1;
 let ratio = 0.95;
+
 function setup() {
   createCanvas(800, 800);
   colorMode(HSB, 360, 100, 100, 100);
